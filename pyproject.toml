@@ -1,0 +1,10 @@
+[tool.pytest.ini_options]
+pythonpath=["src"]
+log_cli=true
+log_cli_level="INFO"
+addopts="--show-capture=all"
+
+[tool.pytest-watch.ini_options]
+pythonpath=["src"]
+nobeep=true
+addopts="--show-capture=all"
